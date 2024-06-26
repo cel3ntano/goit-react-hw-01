@@ -1,0 +1,60 @@
+.userCard {
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: #fafafa;
+}
+
+.userData {
+  padding: 20px;
+  color: rgb(70, 70, 70);
+  min-width: 250px;
+}
+
+.userImage {
+  margin: 0 auto;
+  background-color: rgb(119, 119, 119);
+  max-width: 100px;
+  border-radius: 50px;
+}
+
+.userName {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.userTag {
+  color: #808080;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.userLocation {
+  composes: userTag;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.userStats {
+  color: black;
+  display: flex;
+  background-color: #d3d3d3;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.userStatsItem {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1.5px solid #808080;
+}
+
+.userStatsItem:not(:last-child) {
+  border-right: 1.5px solid #808080;
+}
+
+.statsValue {
+  font-weight: 500;
+}
