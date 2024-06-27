@@ -1,13 +1,14 @@
 .userCard {
-  border: 2px solid black;
+  margin: 0 auto;
+  max-width: 320px;
   border-radius: 16px;
+  border: 2px solid black;
   background-color: #fafafa;
 }
 
 .userData {
   padding: 20px;
   color: rgb(70, 70, 70);
-  min-width: 250px;
 }
 
 .userImage {

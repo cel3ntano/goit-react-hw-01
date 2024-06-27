@@ -1,0 +1,25 @@
+.friendsListItem {
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.friendName {
+  font-weight: 500;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.avatar {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 64px;
+}
+
+.networkStatus.online {
+  color: green;
+}
+
+.networkStatus.offline {
+  color: red;
+}
