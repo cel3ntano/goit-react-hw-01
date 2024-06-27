@@ -1,19 +1,19 @@
 .friendsListItem {
-  padding: 12px;
-  border: 2px solid black;
+  padding: 6px;
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 .friendName {
-  font-weight: 500;
-  margin-top: 8px;
   font-size: 20px;
+  margin-top: 8px;
+  font-weight: 500;
 }
 
 .avatar {
+  width: 64px;
   margin: 0 auto;
   margin-top: 5px;
-  width: 64px;
 }
 
 .networkStatus.online {
